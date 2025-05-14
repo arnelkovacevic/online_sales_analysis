@@ -11,14 +11,8 @@ product2 = Product("Monitor", 300, 5)
 product3 = Product("Mis", 25, 20)
 product4 = Product("Tastatura", 50, 20)
 
+# Dodavanje proizvoda u listu
 manager.add_product(product1, product2, product3, product4)
-
-
-# Prikaz svih proizvoda
-manager.display_all_products()
-
-# Prikaz ukupne vrijednosti svih proizvoda
-manager.display_total_value()
 
 # Kreiranje instance Cart
 cart = Cart()
@@ -30,3 +24,4 @@ cart.add_to_cart(manager.products[3])
 
 # Prikaz proizvoda u korpi
 cart.display_cart_items()
+
