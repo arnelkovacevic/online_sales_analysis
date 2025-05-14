@@ -1,0 +1,10 @@
+# Ignorisanje poverljivih podataka
+config.json
+
+# Ignorisanje foldera sa snimcima ekrana
+screenshots/
+
+
+# Ignorisanje PyCache
+__pycache__/
+
